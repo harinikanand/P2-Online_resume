@@ -1,0 +1,300 @@
+
+html { 
+  background: url(green_bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding:0;
+  font-family: Helvetica Narrow, sans-serif;
+  font-style: italic;
+}
+
+#header {
+  background-color: rgba(16, 16, 16, 0.83);
+  margin: 0 5% 0;
+}
+
+.clear-fix {
+  overflow: auto;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+  padding: 0 5%;
+}
+
+h1 {
+  font-size: 50px;
+  color: #359620;
+  line-height: 48px;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #D0660F;
+  line-height: 29px;
+  padding: 10px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #D0660F;
+  line-height: 22px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #D0660F;
+  line-height: 17px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding:10px 5%;
+
+}
+
+
+.date-text {
+  font-style: italic;
+  font-size: 15px;
+  color: #fff;
+  line-height: 20px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #fff;
+  line-height: 16px;
+  float: right;
+}
+
+p {
+  font-size: 14px;
+  color: #fff;
+  line-height: 21px;
+}
+
+a {
+  color: #D0660F;
+  text-decoration: none;
+  font-size: 19px;
+  margin-top: 10px;
+  display: block;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 20px;
+  color: #f3f3f3;
+  line-height: 24px;
+}
+
+#pieChart{
+  background-color: rgba(16, 16, 16, 0.83);
+  margin: 0 5% 0;
+}
+
+#pie{
+  display: block;
+  text-align: center;
+}
+
+.slice text {
+  font-size: 12px;
+  font-family: Arial;
+  word-wrap: initial;
+}
+
+#tooltip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+#skills-h3 {
+  font-size: 25px;
+  color: #D0660F;
+  display: none;
+}
+
+#online-h3 {
+padding: 0;
+}
+
+.orange {
+  background-color: #D0660F;
+}
+
+.center-text {
+  color: #fff;
+  font-size: 22px;
+}
+.orange-text {
+  color: #D0660F;
+  font-size: 18px;
+}
+
+.white-text {
+  font-weight: bold;
+  font-size:18px;
+  color: #fff;
+}
+
+.gray {
+  background-color: rgba(16, 16, 16, 0.83);
+  padding-bottom: 10px;
+  clear:both;
+  margin: 0 5% 0;
+}
+
+.dark-gray {
+  background-color: #2D252B;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.center-content {
+  padding: 2.5% 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.biopic {
+  float: left;
+  padding: 0;
+  width: 400px;
+  display: none;
+  margin: 5px;
+}
+
+img {
+  padding: 10px;
+}
+
+span {
+  padding: 5px;
+  font-size: 30px;
+  color: #D0660F;
+}
+
+#lets-connect {
+  text-align: center;
+  background-color: rgba(16, 16, 16, 0.83);
+  margin: 0 5% 0;
+}
+
+#projects {
+  background-color: rgba(16, 16, 16, 0.83);
+  margin: 0 5% 0;
+}
+
+em{
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+}
+
+.online-url{
+  color: #fff;
+  font-size: 14px;
+}
+
+.online-title{
+  font-size: 20px;
+}
+
+.school-title{
+  font-size: 20px;
+}
+
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin: 0 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  padding-bottom: 5%;
+  background-color: rgba(16, 16, 16, 0.83);
+  margin: 0 5% 0;
+}
+
+#firstHeading {
+  font-size: 20px;
+  color: #359620;
+}
+
+#bodyContent {
+  background-color: rgba(16, 16, 16, 0.83);
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 750px) {
+  #skills-h3,
+  .biopic {
+    display: block;
+  }
+}
